@@ -23,3 +23,6 @@ This project's goal is to cover the following topics:
 # Chess board
 
 ![chess board](./ChessBoard.png)
+
+# Dependencies
+	- eclipse plugin: ANSI Escape in Console (colorful terminal output)
