@@ -14,5 +14,12 @@ public class King extends ChessPiece {
 	public String toString() {
 		return "K";
 	}
+
+	@Override
+	public boolean[][] possibleMoves() {
+		// TODO temporaryMatrix is not the final solution... testing stuff 
+		boolean[][] temporaryMatrix = new boolean[getBoard().getRows()][getBoard().getColumns()];
+		return temporaryMatrix;
+	}
 	
 }
